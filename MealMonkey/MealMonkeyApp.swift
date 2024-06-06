@@ -25,7 +25,7 @@ struct MealMonkeyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingPageView()
         }
         .modelContainer(sharedModelContainer)
     }

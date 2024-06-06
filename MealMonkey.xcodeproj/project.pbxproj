@@ -15,6 +15,9 @@
 		83F8A1482C119CF2004D01A7 /* MealMonkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1472C119CF2004D01A7 /* MealMonkeyTests.swift */; };
 		83F8A1522C119CF2004D01A7 /* MealMonkeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1512C119CF2004D01A7 /* MealMonkeyUITests.swift */; };
 		83F8A1542C119CF2004D01A7 /* MealMonkeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1532C119CF2004D01A7 /* MealMonkeyUITestsLaunchTests.swift */; };
+		83F8A1642C11C8D9004D01A7 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1632C11C8D9004D01A7 /* LandingPageView.swift */; };
+		83F8A1662C11D947004D01A7 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F8A1652C11D947004D01A7 /* Color.xcassets */; };
+		83F8A1682C11D9F7004D01A7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1672C11D9F7004D01A7 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		83F8A14D2C119CF2004D01A7 /* MealMonkeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealMonkeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F8A1512C119CF2004D01A7 /* MealMonkeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMonkeyUITests.swift; sourceTree = "<group>"; };
 		83F8A1532C119CF2004D01A7 /* MealMonkeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMonkeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83F8A1602C11C514004D01A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83F8A1632C11C8D9004D01A7 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		83F8A1652C11D947004D01A7 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		83F8A1672C11D9F7004D01A7 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +104,16 @@
 		83F8A1322C119CF1004D01A7 /* MealMonkey */ = {
 			isa = PBXGroup;
 			children = (
+				83F8A1602C11C514004D01A7 /* Info.plist */,
 				83F8A1332C119CF1004D01A7 /* MealMonkeyApp.swift */,
+				83F8A1632C11C8D9004D01A7 /* LandingPageView.swift */,
 				83F8A1352C119CF1004D01A7 /* ContentView.swift */,
 				83F8A1372C119CF1004D01A7 /* Item.swift */,
 				83F8A1392C119CF2004D01A7 /* Assets.xcassets */,
 				83F8A13B2C119CF2004D01A7 /* MealMonkey.entitlements */,
 				83F8A13C2C119CF2004D01A7 /* Preview Content */,
+				83F8A1652C11D947004D01A7 /* Color.xcassets */,
+				83F8A1672C11D9F7004D01A7 /* Color.swift */,
 			);
 			path = MealMonkey;
 			sourceTree = "<group>";
@@ -238,6 +249,7 @@
 			files = (
 				83F8A13E2C119CF2004D01A7 /* Preview Assets.xcassets in Resources */,
 				83F8A13A2C119CF2004D01A7 /* Assets.xcassets in Resources */,
+				83F8A1662C11D947004D01A7 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F8A1362C119CF1004D01A7 /* ContentView.swift in Sources */,
+				83F8A1642C11C8D9004D01A7 /* LandingPageView.swift in Sources */,
 				83F8A1382C119CF1004D01A7 /* Item.swift in Sources */,
+				83F8A1682C11D9F7004D01A7 /* Color.swift in Sources */,
 				83F8A1342C119CF1004D01A7 /* MealMonkeyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,8 +438,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MealMonkey/Preview Content\"";
+				DEVELOPMENT_TEAM = QG25RS4Z52;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealMonkey/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -460,8 +476,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MealMonkey/Preview Content\"";
+				DEVELOPMENT_TEAM = QG25RS4Z52;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealMonkey/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
