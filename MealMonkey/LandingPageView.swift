@@ -14,8 +14,9 @@ struct LandingPageView: View {
                 ZStack(alignment: .bottom, content: {
                     Image("landing.top.image", bundle: nil)
                         .resizable()
-                        .frame(width: geometry.size.width, height: geometry.size.height / 2)
+                        .frame(width: geometry.size.width, height: geometry.size.height * 0.45)
                         .aspectRatio(contentMode: .fill)
+                        .shadow(radius: 5, y: 3)
                     Image("logo")
                         .resizable()
                         .alignmentGuide(.bottom, computeValue: { dimension in
