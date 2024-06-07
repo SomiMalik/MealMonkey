@@ -23,7 +23,6 @@ struct ContentView: View {
                     }
                 }
                 .onDelete(perform: deleteItems)
-                Text("sdfsfdsdf")
             }
 #if os(macOS)
             .navigationSplitViewColumnWidth(min: 180, ideal: 200)

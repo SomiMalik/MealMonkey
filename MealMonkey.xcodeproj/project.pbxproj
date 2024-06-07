@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834D09862C12E5DD00E2F0D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D09852C12E5DD00E2F0D3 /* LoginView.swift */; };
 		83F8A1342C119CF1004D01A7 /* MealMonkeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1332C119CF1004D01A7 /* MealMonkeyApp.swift */; };
 		83F8A1362C119CF1004D01A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1352C119CF1004D01A7 /* ContentView.swift */; };
 		83F8A1382C119CF1004D01A7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8A1372C119CF1004D01A7 /* Item.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		834D09852C12E5DD00E2F0D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		83F8A1302C119CF1004D01A7 /* MealMonkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMonkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F8A1332C119CF1004D01A7 /* MealMonkeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMonkeyApp.swift; sourceTree = "<group>"; };
 		83F8A1352C119CF1004D01A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				83F8A13C2C119CF2004D01A7 /* Preview Content */,
 				83F8A1652C11D947004D01A7 /* Color.xcassets */,
 				83F8A1672C11D9F7004D01A7 /* Color.swift */,
+				834D09852C12E5DD00E2F0D3 /* LoginView.swift */,
 			);
 			path = MealMonkey;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834D09862C12E5DD00E2F0D3 /* LoginView.swift in Sources */,
 				83F8A1362C119CF1004D01A7 /* ContentView.swift in Sources */,
 				83F8A1642C11C8D9004D01A7 /* LandingPageView.swift in Sources */,
 				83F8A1382C119CF1004D01A7 /* Item.swift in Sources */,

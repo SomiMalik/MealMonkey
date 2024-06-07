@@ -6,8 +6,10 @@
 //
 
 import Foundation
-import UIKit
+import SwiftUI
 
-extension UIColor {
-    static let discoverTextColor = UIColor(named: "discoverTextColor")
+extension Color {
+    static let discoverTextColor = Color("discoverTextColor")
+    static let detailsTextColor = Color("detailsTextColor")
+    static let textFieldBackgroundColor = Color("textFieldBackgroundColor")
 }
